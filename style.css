@@ -2,7 +2,7 @@
   --theme-grey: #acc9cd;
   --color: #002479;
   --white: #ececec;
-  --background-color: #02092c;
+  --background-color: #0a2950;
   --font-size: 16px;
   --boldness: 700;
   --button-padding: 0.75rem 1.25rem;
@@ -28,12 +28,13 @@ body {
 }
 
 footer {
-  background-color: var(--background-color);
+  background-color: #092445;
   padding: 2rem;
 }
 
 header {
   background-color: var(--background-color);
+  border-bottom: #ececec solid;
 }
 
 section {
@@ -154,7 +155,6 @@ section {
   padding: 0 10px;
 }
 
-/* NOTE Style the cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
@@ -181,6 +181,7 @@ section {
 
   .eum {
     position: relative;
+    padding-bottom: 1rem;
   }
 
   .column {
